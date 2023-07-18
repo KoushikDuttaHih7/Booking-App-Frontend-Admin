@@ -28,7 +28,7 @@ const Datatable = () => {
     {
       field: "action",
       headerName: "Action",
-      width: 200,
+      width: 150,
       renderCell: (params) => {
         return (
           <div className='cellAction'>
@@ -50,7 +50,7 @@ const Datatable = () => {
     <div className='datatable'>
       <div className='datatableTitle'>
         Add New User
-        <Link to='/users/new' className='link'>
+        <Link to='/user/new' className='link'>
           Add New
         </Link>
       </div>

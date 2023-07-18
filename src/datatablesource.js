@@ -44,3 +44,53 @@ export const userColumns = [
     width: 70,
   },
 ];
+
+export const hotelColumns = [
+  { field: "_id", headerName: "ID", width: 250 },
+  {
+    field: "name",
+    headerName: "name",
+    width: 250,
+  },
+
+  {
+    field: "type",
+    headerName: "Type",
+    width: 100,
+  },
+  {
+    field: "title",
+    headerName: "Title",
+    width: 250,
+  },
+  {
+    field: "city",
+    headerName: "City",
+    width: 100,
+  },
+];
+
+export const roomColumns = [
+  { field: "_id", headerName: "ID", width: 250 },
+  {
+    field: "title",
+    headerName: "Title",
+    width: 200,
+  },
+
+  {
+    field: "desc",
+    headerName: "Description",
+    width: 200,
+  },
+  {
+    field: "price",
+    headerName: "Price",
+    width: 100,
+  },
+  {
+    field: "maxPeople",
+    headerName: "Max People",
+    width: 70,
+  },
+];

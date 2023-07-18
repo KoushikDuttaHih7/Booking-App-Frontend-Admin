@@ -48,7 +48,7 @@ const Datatable = ({ columns }) => {
   return (
     <div className='datatable'>
       <div className='datatableTitle'>
-        Add New {path}
+        All {path}s
         <Link to={`/${path}/new`} className='link'>
           Add New {path}
         </Link>

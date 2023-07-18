@@ -120,7 +120,7 @@ const NewHotel = () => {
                       ))}
                 </select>
               </div>
-              <button onClick={handleClick}>Send</button>
+              <button onClick={handleClick}>Add New Hotel</button>
             </form>
           </div>
         </div>

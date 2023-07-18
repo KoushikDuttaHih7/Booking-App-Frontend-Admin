@@ -1,6 +1,5 @@
 import "./datatable.scss";
 import { DataGrid } from "@mui/x-data-grid";
-// import { userColumns } from "../../datatablesource";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import useFetch from "../../hooks/useFetch";
@@ -32,7 +31,7 @@ const Datatable = ({ columns }) => {
       renderCell: (params) => {
         return (
           <div className='cellAction'>
-            <Link to='/users/test' style={{ textDecoration: "none" }}>
+            <Link to={`/${path}/test`} style={{ textDecoration: "none" }}>
               <div className='viewButton'>View</div>
             </Link>
             <div
@@ -49,9 +48,9 @@ const Datatable = ({ columns }) => {
   return (
     <div className='datatable'>
       <div className='datatableTitle'>
-        Add New User
-        <Link to='/user/new' className='link'>
-          Add New
+        Add New {path}
+        <Link to={`/${path}/new`} className='link'>
+          Add New {path}
         </Link>
       </div>
       <DataGrid

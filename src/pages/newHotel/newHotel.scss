@@ -32,12 +32,27 @@
 
       .right {
         flex: 2;
+        padding: 0px 20px;
 
         form {
           display: flex;
           flex-wrap: wrap;
           gap: 30px;
-          justify-content: space-around;
+          justify-content: space-between;
+
+          .selectRooms {
+            width: 100%;
+            
+            select{
+              width: 100%;
+              padding: 10px;  
+            }
+          }
+
+        
+          .radio{
+            margin-right: 15px;
+          }
 
           .formInput {
             width: 40%;
@@ -61,7 +76,8 @@
           }
 
           button {
-            width: 150px;
+            // width: 150px;
+            width: 100%;
             padding: 10px;
             border: none;
             background-color: teal;

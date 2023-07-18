@@ -36,7 +36,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            <Route path='users'>
+            <Route path='user'>
               <Route
                 index
                 element={
